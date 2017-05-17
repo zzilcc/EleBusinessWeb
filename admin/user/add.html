@@ -17,14 +17,14 @@
        padding: 50px;
      }
     </style>
-    <link rel="stylesheet" href="../public/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/bs/css/bootstrap.min.css">
     <script
     src="https://code.jquery.com/jquery-1.12.4.js"
     integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
     crossorigin="anonymous"></script>
-    <script src="../public/bs/js/bootstrap.min.js"></script>
-    <script src='../public/js/jquery.toggle.js'></script>
-    <script src='../public/bs/js/holder.min.js'></script>
+    <script src="../../public/bs/js/bootstrap.min.js"></script>
+    <script src='../../public/js/jquery.toggle.js'></script>
+    <script src='../../public/bs/js/holder.min.js'></script>
 </head>
 <body>
   <div class="container">
@@ -102,6 +102,8 @@
           <div class="list-group">
             <a href="" class='list-group-item'>会员查看</a>
             <a href="" class='list-group-item'>会员添加</a>
+            <a href="" class='list-group-item'>会员修改</a>
+            <a href="" class='list-group-item'>会员删除</a>
           </div>
     </div>
   <div class="panel panel-default">
@@ -216,19 +218,26 @@
 </div>
 <!--右部设计-->
     <div class="col-md-10">
-    <img src="holder.js/100*300">
-      <div class="thumbnail">
-      <img src="holder.js/100*300">
-      <div class="caption">
-        <h3>酒仙网后台信息</h3>
-        <p>联系方式：2122111</p>
-        <p>
-          <a href="../home/index.html" class="btn btn-primary" role="button" target="_blank">网站首页</a>
-           <a href="#" class="btn btn-default" role="button">退出系统</a>
-         </p>
-      </div>
-    </div>
+      <form action="">
+        <div class="form-group">
+          <label for="">用户名</label>
+          <input type="text" class="form-control">
+        </div>
 
+        <div class="form-group">
+          <label for="">密码</label>
+          <input type="password" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="">确认密码</label>
+          <input type="password" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="添加" class="btn btn-primary">
+          <input type="reset" value="取消" class="btn btn-primary">
+        </div>
     </div>
 
   </div>
