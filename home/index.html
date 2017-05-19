@@ -3,137 +3,78 @@
 <head>
   <meta charset="utf-8">
   <title>admin</title>
-  <style>
-  *{
-    font-family: 微軟雅黑;
-    margin:0px;
-    padding: 0px;
-    font-size: 12px;
-    }
-  a
-  {
-    text-decoration: none;
-    color:#afa9a9;
-  }
-  body
-  {
-    height: 29px;
-    background: #cfcece
-  }
-  .top
-  {
-    height: 26px;
-    background: #f2f2f2;
-  }
-  .main
-  {
-    color:#afa9a9;
-    width: 1200px;
-    margin:0 auto;
-    position: relative;
-    line-height: 26px;
-  }
-  .main-left
-  {
-    float: left;
-  }
-  .main-right .span ,.main-right .a
-  {
-    margin-right: 5px;
-  }
-  .main-left .span ,.main-left .a
-  {
-    margin-left: 8px;
-  }
-  .main-right
-  {
-    float: right;
-  }
-  .main-right .ceo
-  {
-    color: #d7082d;
-  }
-  .main-right .phone
-  {
-    background: #c00;
-    color: #fff;
-    padding: 0 5px;
-    border-radius: 5px;
-  }
-  .main-right .cart
-  {
-    width: 15px;
-    height: 15px;
-    background: url('public/img/public-24.png') no-repeat -18px 1px;
-    padding-left: 15px;
-  }
-  .main-right .phone .pre
-  {
-    width: 15px;
-    height: 15px;
-    background: url('public/img/public-24.png') no-repeat -62px 0px;
-    padding-left: 15px;
-  }
-  .main-right .cart
-  {
-    width: 15px;
-    height: 15px;
-    background: url('public/img/public-24.png') no-repeat -18px 1px;
-    padding-left: 15px;
-  }
-  .main-right .guide
-  {
-    width: 15px;
-    height: 15px;
-    background: url('public/img/public-24.png') no-repeat -80px 2px;
-    padding-left: 15px;
-  }
-  .main-right .server
-  {
-    width: 15px;
-    height: 15px;
-    background: url('public/img/public-24.png') no-repeat -90px -263px;
-    padding-left: 15px;
-  }
-  .banner
-  {
-    overflow: hidden;
-    width: 1360px;
-  }
-  .banner img{
-    display: block;
-    margin-left: -254px;
-  }
-  .main-right .mywine
-  {
-
-  }
-</style>
+  <link rel="stylesheet" href="public/css/index.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"
+integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+crossorigin="anonymous">
+</script>
 </head>
 <body>
   <div class="top ">
     <div class="main">
-      <div class="left">
+      <div class="main-left">
         <span>欢迎来到酒仙网！</span>
-          <a href="">请登录</a>
-          <a href="">免费注册</a>
+        <a href="">请登录</a>
+        <a href="">免费注册</a>
       </div>
-      <div class="right">
-        <a href="">我的酒仙<i class="mywine"></i></a>
-        <a href="" class="ceo">CE0邮箱</a>
-        <a href="" class=""><i class="cart"></i>购物车0件</a>
-        <a href="" class="ceo">社区</a>
-        <a href="" class="phone"><i class="pre"></i>手机逛酒仙</a>
-        <a href="">体验店加盟</a>
-        <a href=""><i class="guide"></i>网站导航</a>
-        <a href=""><i class="server"></i>客户服务</a>
-        <a href="">客服</a>
+      <div class="main-right">
+        <div  class="wine" style="block">
+          <div class="jiuxiantop">
+            <span>我的酒仙  </span><i class="mywine"></i>
+            <div class="clear"></div>
+          </div>
+          <div class="mydropdown">
+            <ul>
+              <li><a href="">我的订单</a></li>
+              <li><a href="">物流跟踪</a></li>
+              <li><a href="">我的优惠券</a></li>
+            </ul>
+          </div>
+        </div>
+        <a href="" class="ceo">CE0邮箱  </a>
+        <a href="" class=""><i class="cart"></i>购物车0件  </a>
+        <a href="" class="ceo">社区  </a>
+        <a href="" class="phone"><i class="pre"></i>手机逛酒仙  </a>
+        <a href="">体验店加盟  </a>
+        <a href=""><i class="guide"></i>网站导航  </a>
+        <a href=""><i class="server"></i>客户服务  </a>
+        <a href="">客服  </a>
         <span class="ceo">客服热线400-617-9999</span>
       </div>
     </div>
     <div class="banner">
       <img src="public/img/96bdd858cdc04813bc1821e5d9d245f3.jpg" alt="">
     </div>
+    <div class="header">
+      <div class="main">
+        <div class="middle">
+          <div class="logo">
+            <img src="../public/img/logo.png" alt="">
+          </div>
+          <div class="adv">
+            <img src="public/img/login_right.gif" alt="">
+          </div>
+          <div class="search">
+
+          </div>
+          <div class="preferential">
+            <img src="public/img/headerProPic1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
+<script type="text/javascript">
+  $('.main-right .wine').mouseenter(function(){
+    $(this).find('.mywine').css({'transform':'rotate(180deg)','margin-left':'0px','margin-top':'10px'});
+    $(this).find('.jiuxiantop').css({'background':'#fff'});
+    $(this).find('.mydropdown').show();
+  });
+  $('.main-right .wine').mouseleave(function(){
+    $(this).find('.mywine').css({'transform':'rotate(0deg)','margin-left':'5px','margin-top':'2px'});
+    $(this).find('.jiuxiantop').css({'background':'#f2f2f2'});
+    $(this).find('.mydropdown').hide();
+  })
+</script>
 </html>

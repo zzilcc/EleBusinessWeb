@@ -1,0 +1,163 @@
+*{
+  font-family: 微軟雅黑;
+  margin:0px;
+  padding: 0px;
+  font-size: 12px;
+}
+a
+{
+  text-decoration: none;
+  color:#afa9a9;
+}
+body
+{
+  height: 29px;
+  background: #cfcece
+}
+.top
+{
+  height: 26px;
+  background: #f2f2f2;
+}
+.main
+{
+  color:#afa9a9;
+  width: 1200px;
+  margin:0 auto;
+  position: relative;
+  line-height: 26px;
+}
+.main-left
+{
+  float: left;
+}
+.main-right .span ,.main-right .a
+{
+  margin-right: 5px;
+}
+.main-left .span ,.main-left .a
+{
+  margin-left: 8px;
+}
+.main-right
+{
+  float: right;
+}
+.main-right .ceo
+{
+  color: #d7082d;
+}
+.main-right .phone
+{
+  background: #c00;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.main-right .cart
+{
+  width: 15px;
+  height: 15px;
+  background: url('../img/public-24.png') no-repeat -18px 1px;
+  padding-left: 15px;
+}
+.main-right .phone .pre
+{
+  width: 15px;
+  height: 15px;
+  background: url('../img/public-24.png') no-repeat -62px 0px;
+  padding-left: 15px;
+}
+.main-right .cart
+{
+  width: 15px;
+  height: 15px;
+  background: url('../img/public-24.png') no-repeat -18px 1px;
+  padding-left: 15px;
+}
+.main-right .guide
+{
+  width: 15px;
+  height: 15px;
+  background: url('../img/public-24.png') no-repeat -80px 2px;
+  padding-left: 15px;
+}
+.main-right .server
+{
+  width: 15px;
+  height: 15px;
+  background: url('../img/public-24.png') no-repeat -90px -263px;
+  padding-left: 15px;
+}
+.banner
+{
+  overflow: hidden;
+  width: 1360px;
+}
+.banner img{
+  display: block;
+  margin-left: -300px;
+}
+.main-right  .mywine
+{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: url('../img/public-24.png') no-repeat -99px 10px;
+  float: left;
+  margin-left: 5px;
+  margin-top:2px;
+}
+.main-right .wine
+{
+  cursor: pointer;
+  float: left;
+  width: 70px;
+}
+.main-right .mydropdown
+{
+  position: absolute;
+  width: 70px;
+  background: #fff;
+  display: none;
+}
+.main-right  .mydropdown ul
+{
+  list-style: none;
+}
+.main-right .wine .jiuxiantop span
+{
+  float: left;
+}
+.main-right .wine .jiuxiantop .clear
+{
+  clear: both;
+}
+.header
+{
+  height: 125px;
+  background: url('../img/th.jpg');
+  background-size: 100% 100%;
+}
+.logo
+{
+  float: left;
+  height: 65px;
+  margin-top: 30px;
+}
+.adv
+{
+  float: left;
+  height: 65px;
+  margin-top: 30px;
+}
+.search
+{
+  float: left;
+}
+.preferential
+{
+  height: 65px;
+  margin-top: 30px;
+  float: left;
+}
