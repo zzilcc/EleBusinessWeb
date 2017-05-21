@@ -9,9 +9,11 @@
     integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
     crossorigin="anonymous">
     </script>
+    <script type="text/javascript" src="public/js/index.js"></script>
 </head>
 <body>
     <div class="top ">
+        <!--网页顶端导航栏-->
         <div class="main">
             <div class="main-left">
                 <span>欢迎来到酒仙网！</span>
@@ -54,10 +56,13 @@
                 </div>
             </div>
         </div>
+        <!--网页顶端导航栏下的图片  -->
         <div class="banner">
             <img src="public/img/1fd81dd5aa8c4e67a5474e74b0563b45.jpg" alt="">
         </div>
+        <!-- 网页头部 -->
         <div class="header">
+            <!-- 网站头部搜索框 -->
             <div class="main">
                 <div class="middle">
                     <div class="logo">
@@ -94,45 +99,71 @@
                 </div>
             </div>
         </div>
+        <!-- 网站头部幻灯片（包括左侧导航） -->
         <div class="ppt">
-            <div class="s-navigation">
-                <ul>
-                    <li class="banner">全部商品分类</li>
-                    <li>首页</li>
-                    <li>葡萄酒馆</li>
-                    <li>清仓</li>
-                </ul>
-            </div>
-            <div class="menu">
-                <div class="div1">
-                    <div class="div2">
-                        <ul>
-                            <li>
-                                <sapn>一键选酒</sapn>
-                                <div class="right">
-                                    <h3>家用电器</h3>
-                                    <p>家用电器家用电器家用电器家用电器</p>
-                                </div>
-                            </li>
-                            <li>
-                                <sapn>白酒</sapn>
-                                <div class="right">
-                                    <h3>家用电器</h3>
-                                    <p>家用电器家用电器家用电器家用电器</p>
-                                </div>
-                            </li>
-                            <li>
-                                <sapn>葡萄酒</sapn>
-                                <div class="right">
-                                    <h3>家用电器</h3>
-                                    <p>家用电器家用电器家用电器家用电器</p>
-                                </div>
-                            </li>
-                        </ul>
+            <div class="main">
+                <div class="s-navigation">
+                    <ul>
+                        <li class="banner">全部商品分类</li>
+                        <li>首页</li>
+                        <li>葡萄酒馆</li>
+                        <li>清仓</li>
+                    </ul>
+                </div>
+                <!-- 网站头部左侧导航栏 -->
+                <div class="menu">
+                    <div class="div1">
+                        <div class="div2">
+                            <ul>
+                                <li>
+                                    <sapn><i class="nav1"></i>一键选酒</sapn>
+                                    <div class="right">
+                                        <h3>家用电器</h3>
+                                        <p>家用电器家用电器家用电器家用电器</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <sapn><i class="nav2"></i>白酒</sapn>
+                                    <div class="right">
+                                        <h3>家用电器</h3>
+                                        <p>家用电器家用电器家用电器家用电器</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <sapn><i class="nav3"></i>葡萄酒</sapn>
+                                    <div class="right">
+                                        <h3>家用电器</h3>
+                                        <p>家用电器家用电器家用电器家用电器</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <sapn><i class="nav4"></i>洋酒</sapn>
+                                    <div class="right">
+                                        <h3>家用电器</h3>
+                                        <p>家用电器家用电器家用电器家用电器</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <sapn><i class="nav5"></i>啤酒/黄酒养生酒</sapn>
+                                    <div class="right">
+                                        <h3>家用电器</h3>
+                                        <p>家用电器家用电器家用电器家用电器</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <sapn><i class="nav6"></i>食尚</sapn>
+                                    <div class="right">
+                                        <h3>家用电器</h3>
+                                        <p>家用电器家用电器家用电器家用电器</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- 幻灯片设计 -->
         <div class="main">
             <div class="carousel">
                 <div class="window">
@@ -200,132 +231,5 @@
         <hi>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhj</hi>
     </div>
 </body>
-<script type="text/javascript">
-// 我的酒仙的下拉框
-$('.main-right .myjiuxian').mouseenter(function(){
-    $(this).find('.myjiuxian-icon').css({'transform':'rotate(180deg)','margin-left':'0px','margin-top':'10px'});
-    $(this).find('.myjiuxian-top').css({'background':'#fff'});
-    $(this).find('.myjiuxian-dropdown').show();
-});
-$('.main-right .myjiuxian').mouseleave(function(){
-    $(this).find('.myjiuxian-icon').css({'transform':'rotate(0deg)','margin-left':'5px','margin-top':'2px'});
-    $(this).find('.myjiuxsian-top').css({'background':'#f2f2f2'});
-    $(this).find('.myjiuxian-dropdown').hide();
-});
 
-// 客户服务
-$('.main-right .server').mouseenter(function(){
-    $(this).find('.server-icon').css({'transform':'rotate(180deg)','margin-left':'0px','margin-top':'10px'});
-    $(this).find('.server-top').css({'background':'#fff'});
-    $(this).find('.server-dropdown').show();
-});
-$('.main-right .server').mouseleave(function(){
-    $(this).find('.server-icon').css({'transform':'rotate(0deg)','margin-left':'5px','margin-top':'2px'});
-    $(this).find('.server-top').css({'background':'#f2f2f2'});
-    $(this).find('.server-dropdown').hide();
-});
-
-//左部导航
-$('.ppt .div2 li').mouseenter(function(){
-    $(this).css({'background':'#eee'});
-    $(this).find('span').css({'color':'#b61d1d'});
-    $('.ppt .div2 li').not($(this)).css({'background':'#b61d1d'});
-
-    $(this).find('.right').show();
-    $('.right').not($(this).find('.right')).hide();
-});
-
-$('.ppt .div2 li').mouseleave(function(){
-    $(this).find('.right').hide();
-    $(this).find('span').css({'color':'#b61d1d'});
-    $(this).css({'background':'#b61d1d'});
-});
-
-//首部幻灯片设计
-$(".paging").show();
-$(".paging a:first").addClass("active");
-num=$(".paging a:first").attr('rel');
-arr=[1,2,3,4,5,6,7,8,9];
-imgs=arr.slice((num-1)*3,num*3);
-for(i=0;i<imgs.length;i++)
-{
-    $('.'+imgs[i]).show();
-}
-
-var imageWidth = $(".window").width();
-var imageSum = $(".image_reel img").size();
-var imageReelWidth = imageWidth * imageSum;
-
-$(".image-reel").css({'width':imageReelWidth});
-
-rotate = function(end){
-    if(end){
-        var triggerID = imageSum - 1;
-        var image_reelPosition = triggerID * imageWidth;
-
-        $(".paging a").removeClass('active');
-        $active.addClass('active');
-
-        $(".image_reel").animate({
-            left:-image_reelPosition
-        },500 ,function(){
-            $(this).css({'left':'0px'});
-        });
-    }else{
-        var triggerID = $active.attr("rel")-1;
-        var image_reelPosition = triggerID * imageWidth;
-
-        $(".paging a").removeClass('active');
-        $active.addClass('active');
-
-        $(".image_reel").animate({
-            left: -image_reelPosition
-        }, 500);
-    }
-    act=$('.paging a.active').attr('rel');
-
-    imgs=arr.slice((act-1)*3,act*3);
-
-    for(i=0;i<imgs.length;i++)
-    {
-        $('.'+imgs[i]).show();
-    }
-
-
-};
-rotateSwitch = function(){
-    play = setInterval(function(){
-        $('.img').hide();
-        $active = $('.paging a.active').next();
-        rel=$('.paging a.active').attr('rel');
-        // document.title=rel;
-
-        if(rel==3)
-        {
-            $active = $('.paging a:first');
-            end=true;
-        }else {
-            end=false;
-        }
-        rotate(end);
-    },2000);
-};
-rotateSwitch();
-
-$(".image_reel a").hover(function(){
-    clearInterval(play);
-},function(){
-    rotateSwitch();
-});
-
-$(".paging a").click(function(){
-    $active = $(this);
-    clearInterval(play);
-    rotate(false);
-    rotateSwitch();
-    return false;
-});
-
-
-</script>
 </html>

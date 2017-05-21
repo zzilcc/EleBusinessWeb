@@ -257,21 +257,21 @@ body
 
 }
 /*左侧导航*/
-.ppt .s-navigation
+.ppt .main .s-navigation
 {
-    color:#fbf6f5;
+    color:#fff;
     height: 34px;
     overflow: hidden;
     background: #c00;
     list-style: none;
 }
-.ppt .s-navigation ul
+.ppt .main .s-navigation ul
 {
     width: 1200px;
     margin: 0 auto;
     list-style: none;
 }
-.ppt  .s-navigation ul li
+.ppt   .main .s-navigation ul li
 {
     float: left;
     line-height: 34px;
@@ -283,20 +283,22 @@ body
     background: #ce171f;
     width: 150px;
     text-align: cneter;
-    margin-left: 0px!important;
+    /*margin-left: 0px!important;*/
 }
-.ppt .div1
+.ppt  .div1
 {
     width: 1200px;
     height: 470px;
     margin: 0 auto;
     position: relative;
 }
-.ppt .div2
+.ppt  .div2
 {
     width: 150px;
     height: 470px;
-    background: #b61d1d;
+    background: #fff;
+    border-left: 1px solid #ccc ;
+    border-bottom: 1px solid #ccc;
 }
 .ppt .div2 ul
 {
@@ -306,10 +308,15 @@ body
 {
     padding-left: 15px;
     line-height: 30px;
+    color: #000;
+    border-bottom: 1px solid #ccc;
 }
-.ppt .div2 ul li span
+.ppt .div2 ul li:last-child
 {
-    color: #fff;
+    padding-left: 15px;
+    line-height: 30px;
+    color: #000;
+    border-bottom: none;
 }
 .ppt .div2 ul li:hover
 {
@@ -409,7 +416,76 @@ body
     overflow: hidden;
     position: absolute;
     top:0px;
-    right: 0px;
+    right: 1px;
     width: 190px;
     height: 470px;
+}
+.ppt .nav1
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -73px -260px;
+}
+
+.ppt .nav2
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") 2px -100px;
+}
+
+.ppt .nav3
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -16px -102px;
+}
+
+.ppt .nav4
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -37px -100px;
+}
+
+.ppt .nav5
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -59px -100px;
+}
+
+.ppt .nav6
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -79px -100px;
+}
+.ppt .menu .div2 li:hover
+{
+    border-left:  2px solid #cc1717;   
 }
